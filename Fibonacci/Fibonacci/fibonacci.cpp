@@ -43,9 +43,9 @@ int main()
 	unsigned input; 
 	while (true)
 	{
-		cout << "\n\nEnter a number between 0 - 30\n";
-		cout << "Program will give back a Fibonacci answer that corresponds\n";
-		cout << "to that given number (index): ";
+		cout << "\n\nEnter a number between 0 - 30\n"
+			 << "Program will give back a Fibonacci answer that corresponds\n"
+			 << "to a given input value (Ctrl-C to quit): ";
 
 		// scanf_s("%d", &input);
 		cin >> input;
@@ -65,9 +65,9 @@ int main()
 		}
 
 		// Search the lookup table
-	printf("The fibonacci number for the given number is: %u\n", 
+		printf("The fibonacci number for the given number is: %u\n", 
 			Fabonacci_Lookup[input]);
-	printf("Press Ctrl-C to quit.\n");
+		
 	}
 	
 	
